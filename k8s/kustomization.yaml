@@ -10,7 +10,6 @@ configMapGenerator:
       - configs/default.conf
   - name: init-db
     files:
-      - configs/init.sql
-      
+      - configs/init.sql 
 generatorOptions:
     disableNameSuffixHash: true
